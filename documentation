@@ -1,0 +1,86 @@
+HealthAI Project Documentation
+Team ID: NM2025TMID03837
+Team Size: 4
+Team Leader: SHAM K
+Team Member: SRINAGARAJ P
+Team Member: JEEVITHA L
+Team Member: PRATHIPA M
+1. Introduction
+The HealthAI project is an intelligent healthcare assistant designed to provide users with quick
+access to health-related information, basic medical guidance, and wellness support. By leveraging
+AI technologies, the system aims to assist patients, students, and healthcare professionals with
+symptom checking, health education, and preventive care suggestions.
+2. Project Overview
+HealthAI integrates AI-driven language models with an interactive user interface to create a reliable
+healthcare companion. The system allows users to input health-related queries and receive
+informative, human-like responses.
+3. Objectives of the Project
+- To provide AI-powered health information and guidance.
+- To offer an easy-to-use web-based interface.
+- To implement symptom-checking and health education modules.
+- To encourage preventive care and awareness.
+4. Key Features
+- Symptom Checker
+- Health Information Bot
+- Wellness Tips
+- Interactive UI
+- Scalable Deployment
+5. System Architecture
+Frontend: Gradio Web Interface
+Backend: AI model (IBM Granite / Hugging Face transformer model)
+Data Source: Pre-trained medical knowledge models & curated health datasets
+Deployment Environment: Google Colab / Cloud hosting with GPU support
+6. Technologies Used
+Python
+- Gradio
+- Hugging Face Transformers
+- IBM Granite Models
+- Google Colab
+- GitHub
+7. Pre-requisites
+- Basic knowledge of Python programming
+- Familiarity with AI/ML concepts
+- Experience using Gradio
+- Understanding of GitHub
+- Access to Google Colab with GPU
+8. Setup Instructions
+1. Open Google Colab and create a new notebook.
+2. Change runtime type to T4 GPU.
+3. Install dependencies:
+!pip install transformers torch gradio -q
+4. Import the model and tokenizer.
+5. Run the application and launch the Gradio UI.
+9. Folder Structure
+HealthAI/
+■
+■■■ app.py
+■■■ requirements.txt
+■■■ models/
+■■■ dataset/
+■■■ docs/
+■■■ README.md
+10. Running the Application
+- Run the code in Google Colab.
+- Click the generated Gradio link.
+- Interact with the AI model through the web interface.
+11. User Interface
+- Chat window for queries
+- Buttons for quick actions
+- Clean, minimal layout
+SCREENSHOT :
+
+12. Testing and Validation
+- Unit testing of input/output
+- Accuracy check of responses
+User validation
+- Cross-check with medical resources
+13. Future Enhancements & Conclusion
+Future Enhancements:
+- Integration with wearables
+- Multilingual support
+- Voice-enabled interactions
+- Advanced analytics
+Conclusion:
+HealthAI demonstrates the potential of AI in healthcare assistance and education.
+PROJECT DEMO VIDEO LINK:
+https://drive.google.com/file/d/1qUnHmkgS6DqVimhOBN7ayKccnhySvf24/view?usp=drivesdk
